@@ -27,11 +27,11 @@ const Home = () => {
             Guitarist & Singer <span className="text-2xl">&#127928;</span>
           </h2>
           <p className="text-cus-light-black py-2 max-w-fit">
-            I am a learning lorem lorem,I am a learning lorem lorem,I am a
-            learning lorem lorem,I am a learning lorem lorem,I am a learning
-            lorem lorem I am a learning lorem lorem,I am a learning lorem
-            lorem,I am a learning lorem lorem,I am a learning lorem lorem,I am a
-            learning lorem lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            eum placeat quod accusantium facilis dignissimos reiciendis omnis
+            dolor fugit laudantium. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Optio ad enim perspiciatis voluptatum blanditiis,
+            dicta pariatur eligendi corporis saepe commodi!
           </p>
           <div>
             <Link
