@@ -28,7 +28,7 @@ const Portfolio = () => {
       desc: "Indeed ! Even my portfolio is a project. After my Bootcamp, I wanted to futher explore React and couple it with Tailwind CSS",
     },
     {
-      id: 3,
+      id: 4,
       src: oinvest,
       hrefdemo: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
       hrefcode: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
@@ -51,7 +51,9 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, hrefdemo, hrefcode, desc }) => (
-            <div className="flex flex-col justify-between shadow-md shadow-gray-600 rounded-lg">
+            <div
+            key={id}
+            className="flex flex-col justify-between shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""

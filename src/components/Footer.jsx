@@ -47,9 +47,8 @@ const Footer = () => {
   return (
     <div className="flex items-center justify-evenly h-20 bg-cus-yellow mb-0 xl:hidden">
       {links.map(({ id, child, href, download }) => (
-        <div>
+        <div key={id}>
           <a
-            key={{ id }}
             href={href}
             className="flex flex-row w-full text-black font-bold pl-4"
             download={download}
