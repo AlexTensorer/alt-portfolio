@@ -93,7 +93,7 @@ const Technos = () => {
                 alt=""
                 className="mx-auto rounded-lg w-10 sm:w-20"
               />
-              <p className="mt-4 text-sm sm:text-base">{title}</p>
+              <p className="mt-4 text-[0.8rem] sm:text-base">{title}</p>
             </div>
           ))}
         </div>

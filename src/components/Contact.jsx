@@ -9,9 +9,9 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6">
-            Let's get in touch. We can talk about my experience, my skills, your
+            Let's get in touch. <br /> We can talk about my experience, my skills, your
             company, your colleagues, your projects and the weather if we have
-            time. Mostly, let's see if we make a great match.
+            time. <br /> Mostly, let's see if we make a great match.
           </p>
         </div>
 
