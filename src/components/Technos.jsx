@@ -7,6 +7,7 @@ import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import bootstrap from "../assets/bootstrap.png"
+import agile from "../assets/agile.png"
 
 const Technos = () => {
   const technos = [
@@ -58,29 +59,31 @@ const Technos = () => {
       title: "Github",
       style: "shadow-gray-500",
     },
+    {
+      id: 9,
+      src: agile,
+      title: "Agile",
+      style: "shadow-blue-500",
+    },
   ];
 
   return (
-    <div name="tech" className="bg-cus-dark-black w-full h-screen">
+    <div name="skills" className="bg-cus-dark-black w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-8">
           <p className="text-4xl font-bold border-b-4 border-cus-yellow p-2 inline">
-            Tech
+            Skills
           </p>
           <p className="py-6">
-            Here is the tech that I use and continue to develop my skills in. I
-            omitted HTML / CSS because it seems pretty self-evident that I
-            have solid understanding of them and it seemed a shame for them to
-            take up one of my grid-cols <span className="text-2xl">&#128521;</span>
-          </p>
+            Before you say anything, I know HTML & CSS. I know them very well. However, it's self-evident, so why waste a grid-col on them?<span className="text-center text-2xl"> &#128521;</span></p>
         </div>
 
-        <div className=" grid grid-cols-2 sm:grid-cols-3 gap-6 text-center py-4 px-8 sm:px-0">
+        <div className=" grid grid-cols-3 sm:grid-cols-3 gap-6 text-center py-4 px-8 sm:px-0">
           {technos.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={
-                "shadow-md hover:scale-105 duration-500 py-2 rounded-lg" +
+                "shadow-md hover:scale-105 duration-500 py-2 rounded-lg flex flex-col justify-between" +
                 " " +
                 style
               }
@@ -90,7 +93,7 @@ const Technos = () => {
                 alt=""
                 className="mx-auto rounded-lg w-10 sm:w-20"
               />
-              <p className="mt-4 text-[10px] sm:text-base">{title}</p>
+              <p className="mt-4 text-[11px] sm:text-base">{title}</p>
             </div>
           ))}
         </div>

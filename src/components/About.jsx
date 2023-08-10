@@ -2,10 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
-      name="about"
-      className="w-full h-screen bg-cus-dark-black text-white"
-    >
+    <div name="about" className="w-full h-screen bg-cus-dark-black text-white">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 p-2 border-cus-yellow">
@@ -13,18 +10,23 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-          tempora reiciendis a obcaecati ipsa, deleniti eum ullam, quis magni
-          dignissimos reprehenderit accusantium optio harum explicabo eius sequi
-          corrupti ab culpa amet, doloribus possimus dolor et atque! Molestias
-          consequuntur facilis earum magni possimus aliquam maxime, maiores
-          beatae eveniet numquam eos dignissimos?
+          Before tech, I worked with giants of financial industry in the UK and
+          France in Fund Management and Wealth Management. In 2023, I took a
+          leap and trained in modern app development at Ecole O'clock. I
+          quickly absorbed new concepts and put them into practice. I have
+          ambitious ideas and bring a positive attitude to every challenge and
+          every company I've worked at.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
-          mollitia unde doloribus rerum nobis error veritatis corrupti enim
-          quos, fugiat quis perferendis totam?
+          I'm not limited to what I know, I've learnt one language, so I can
+          learn another. I'm that's what I am doing, I'm just warming up.
+        </p>
+        <br />
+        <p className="text-xl">
+          When I'm not coding, I'm usually at the gym, trying out a new recipe
+          with my wife, playing punk-rock songs on the guitar, or on the
+          trampoline with my daughter.
         </p>
       </div>
     </div>
