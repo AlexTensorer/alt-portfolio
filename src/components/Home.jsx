@@ -9,7 +9,7 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-tech-img bg-contain bg-center opacity-1"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 lg:flex-row self-center	">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 sm:flex-row self-center	">
         <div
           id="home-animate-text"
           className="flex flex-col justify-center h-fit"
@@ -54,7 +54,7 @@ const Home = () => {
           <img
             src={altPhoto}
             alt="my profile"
-            className="rounded-2xl mx-auto w-[230px] sm:w-[30%] lg:w-[55%] mt-4"
+            className="rounded-2xl mx-auto w-[230px] sm:w-[300px] sm:ml-5 lg:w-[900px] mt-4"
           />
         </div>
       </div>
