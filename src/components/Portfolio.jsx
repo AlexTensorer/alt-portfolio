@@ -53,7 +53,7 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, hrefdemo, hrefcode, desc }) => (
             <div
             key={id}
-            className="flex flex-col justify-between shadow-md hover:scale-105 shadow-gray-600 rounded-lg">
+            className="flex flex-col justify-between shadow-md hover:scale-105 duration-500 shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
