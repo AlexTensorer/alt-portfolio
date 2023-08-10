@@ -6,6 +6,7 @@ import mongo from "../assets/mongo.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import bootstrap from "../assets/bootstrap.png"
 
 const Technos = () => {
   const technos = [
@@ -23,33 +24,33 @@ const Technos = () => {
     },
     {
       id: 3,
-      src: postgres,
-      title: "PostgreSQL",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 4,
-      src: mongo,
-      title: "MongoDB",
-      style: "shadow-green-500",
-    },
-    {
-      id: 5,
       src: reactImage,
       title: "React",
       style: "shadow-blue-500",
     },
     {
+      id: 4,
+      src: postgres,
+      title: "PostgreSQL",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 5,
+      src: mongo,
+      title: "MongoDB",
+      style: "shadow-green-500",
+    },
+    {
       id: 6,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-500",
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-500",
     },
     {
       id: 7,
-      src: github,
-      title: "Github",
-      style: "shadow-gray-500",
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-500",
     },
     {
       id: 8,

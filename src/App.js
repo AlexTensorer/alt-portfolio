@@ -5,6 +5,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Technos from "./components/Technos";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,9 +17,8 @@ function App() {
       <Portfolio />
       <Technos />
       <Contact />
-
       <SocialLinks />
-      
+      <Footer />      
     </div>
   );
 }
