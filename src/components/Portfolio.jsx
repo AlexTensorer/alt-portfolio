@@ -2,6 +2,7 @@ import React from "react";
 import aliskitchen from "../assets/portfolio/alis-kitchen.jpg";
 import campadvisor from "../assets/portfolio/camp-advisor.jpg";
 import altport from "../assets/portfolio/alt-port.jpg";
+import oinvest from "../assets/portfolio/oinvest.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -17,7 +18,7 @@ const Portfolio = () => {
       src: campadvisor,
       hrefdemo: "https://github.com/AlexTensorer/Camp-Advisor",
       hrefcode: "https://github.com/AlexTensorer/Camp-Advisor",
-      desc: "Camp Advisor is a campground review project from my Bootcamp. It's the same stack as Ali's Kitchen but I swapped out Postgres for MongoDB and Bulma for Bootstrap. Demo is coming soon.",
+      desc: "Camp Advisor is a campground review project. It's the same stack as Ali's Kitchen but I swapped out Postgres for MongoDB and Bulma for Bootstrap. Demo is coming soon.",
     },
     {
       id: 3,
@@ -25,6 +26,13 @@ const Portfolio = () => {
       hrefdemo: "https://alex-t.netlify.app/",
       hrefcode: "https://github.com/AlexTensorer/alt-portfolio",
       desc: "Indeed ! Even my portfolio is a project. After my Bootcamp, I wanted to futher explore React and couple it with Tailwind CSS",
+    },
+    {
+      id: 3,
+      src: oinvest,
+      hrefdemo: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
+      hrefcode: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
+      desc: "O'Invest is a portfolio performance tracker. Demo and source code will be posted soon...",
     },
   ];
 
@@ -41,7 +49,7 @@ const Portfolio = () => {
           <p className="py-6"></p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, hrefdemo, hrefcode, desc }) => (
             <div className="flex flex-col justify-between shadow-md shadow-gray-600 rounded-lg">
               <img
@@ -49,7 +57,7 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105 h-fit"
               />
-              <div className="flex items-center justify-self-center py-4 px-4">
+              <div className="text-sm flex items-center justify-self-center py-4 px-4">
                 {desc}
               </div>
 
