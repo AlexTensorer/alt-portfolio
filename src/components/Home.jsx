@@ -29,10 +29,13 @@ const Home = () => {
             Guitarist & Singer <span className="text-2xl">&#127928;</span>
           </h2>
           <p className="text-cus-light-black py-2 max-w-fit hidden lg:block font-medium">
-            I love to code. I love sitting at my desk, and pulling out what is left
-            of my hair, figuring out why my varible is <span className="font-light">undefined</span>, why my code
-            runs without throwing errors but doesn't produce the expected output,
-            and realising... I never actually called my function(). <br /> <br /> I <strong className="underline underline-offset-4">love</strong> what I do.
+            I love to code. I love sitting at my desk, and pulling out what is
+            left of my hair, figuring out why my varible is{" "}
+            <span className="font-light">undefined</span>, why my code runs
+            without throwing errors but doesn't produce the expected output, and
+            realising... I never actually called my function(). <br /> <br /> I{" "}
+            <strong className="underline underline-offset-4">love</strong> what
+            I do.
           </p>
           <div>
             <Link
