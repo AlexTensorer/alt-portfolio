@@ -83,7 +83,7 @@ const Technos = () => {
             <div
               key={id}
               className={
-                "shadow-md hover:scale-105 duration-500 py-2 rounded-lg flex flex-col justify-between" +
+                "shadow-sm hover:scale-105 duration-500 py-2 rounded-lg flex flex-col justify-between" +
                 " " +
                 style
               }
