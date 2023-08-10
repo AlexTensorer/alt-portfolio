@@ -18,7 +18,7 @@ const Portfolio = () => {
       src: campadvisor,
       hrefdemo: "https://github.com/AlexTensorer/Camp-Advisor",
       hrefcode: "https://github.com/AlexTensorer/Camp-Advisor",
-      desc: "Camp Advisor is a campground review project. It's the same stack as Ali's Kitchen but I swapped out Postgres for MongoDB and Bulma for Bootstrap. Demo is coming soon.",
+      desc: "Camp Advisor is a campground review project. It's the same stack as Ali's Kitchen but I swapped out Postgres for MongoDB and Bootstrap for Bulma. Demo is coming soon.",
     },
     {
       id: 3,
