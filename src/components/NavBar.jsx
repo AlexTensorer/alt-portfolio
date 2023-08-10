@@ -30,16 +30,23 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center mb-10 w-full h-20 px-4 text-white fixed bg-cus-black">
       <div>
-        <Link to="home" smooth duration={500} className="text-6xl font-bold font-signature ml-2 text-cus-yellow cursor-pointer">ALT</Link>
+        <Link
+          to="home"
+          smooth
+          duration={500}
+          className="text-6xl font-bold font-signature ml-2 text-cus-yellow cursor-pointer"
+        >
+          ALT
+        </Link>
       </div>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
-            key={ id }
+            key={id}
             className="px-4 cursor-pointer capitalize font-medium text-cus-yellow hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link key={id} to={link} smooth duration={500}>
               {link}
             </Link>
           </li>

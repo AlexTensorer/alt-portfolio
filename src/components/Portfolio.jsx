@@ -59,7 +59,7 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-md duration-200 h-fit"
               />
-              <div className="text-sm flex items-center justify-self-center py-4 px-4">
+              <div className="text-sm flex items-center justify-center py-4 px-4">
                 {desc}
               </div>
 
