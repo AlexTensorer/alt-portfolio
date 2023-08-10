@@ -20,7 +20,7 @@ const About = () => {
         <br />
         <p className="text-lg">
           I'm not limited to what I know, I've learnt one language, so I can
-          learn another. I'm that's what I am doing, I'm just warming up.
+          learn another; And that's what I am doing. I'm just warming up.
         </p>
         <br />
         <p className="text-lg">
