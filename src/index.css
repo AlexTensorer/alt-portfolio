@@ -21,9 +21,3 @@
 #home-animate-img {
   animation: backInRight 2s;
 }
-
-#contact-animate {
-  animation: rubberBand 2s; /* Animation name, duration, and repeat */
-  animation-delay: 5s;  /* Initial delay */
-  animation-iteration-count: 3;
-}
