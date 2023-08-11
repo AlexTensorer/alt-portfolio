@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-tech-img bg-contain bg-center opacity-1"
+      className="h-screen w-full bg-tech-img bg-contain bg-center opacity-1 pt-20 pb-8"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 sm:flex-row self-center	">
         <div
@@ -42,10 +42,11 @@ const Home = () => {
           </p>
           <div>
             <Link
+              id="l-home-contact"
               to="contact"
               smooth
               duration={500}
-              className="tracking-widest cursor-pointer group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-cus-yellow"
+              className="tracking-widest text-base cursor-pointer group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-cus-yellow"
             >
               Contact
               <span className="group-hover:rotate-90 duration-300">

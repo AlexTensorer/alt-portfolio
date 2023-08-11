@@ -22,20 +22,47 @@
   animation: backInRight 2s;
 }
 
-@media only screen and (max-height: 768px) and (orientation: landscape) {
+@media screen and (max-width: 450px) {
+  #l-home-img {
+    width: 220px;
+  }
+  #l-home {
+    padding-top: px;
+  }
+  #l-about-p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  #l-contact {
+    padding-bottom: 40px;
+    height: auto;
+  }
+  #l-portfolio {
+    height: auto;
+  }
+
+}
+
+@media only screen and (max-height: 700px) and (orientation: landscape) {
   #l-nav {
     height: auto;
   }
+  #l-home-contact {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding: 10px 14px;
+  }
   #l-home {
     height: auto;
+    padding-top: 0;
   }
   #l-home-h1 {
     font-size: 2.5rem;
     margin-top: 55px;
   }
   #l-home-img {
-    width: 220px;
-    margin-top: 55px;
+    width: 200px;
+    margin-top: 40px;
   }
   #l-about {
     height: auto;
