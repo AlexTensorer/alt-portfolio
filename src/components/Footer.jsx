@@ -39,7 +39,7 @@ const Footer = () => {
           <GrDocumentPdf size={30} />
         </>
       ),
-      href: "/cv-tensorer.pdf",
+      href: "/cv-tensorer-alexandre.pdf",
       download: true,
     },
   ];

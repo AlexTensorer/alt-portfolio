@@ -40,7 +40,7 @@ const SocialLinks = () => {
           CV <GrDocumentPdf size={30} />
         </>
       ),
-      href: "/cv-tensorer.pdf",
+      href: "/cv-tensorer-alexandre.pdf",
       style: "rounded-br-md",
       download: true,
     },

@@ -38,6 +38,7 @@ const Portfolio = () => {
 
   return (
     <div
+      id="l-portfolio"
       name="portfolio"
       className="bg-cus-black w-full text-white md:h-screen"
     >
@@ -52,13 +53,10 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, hrefdemo, hrefcode, desc }) => (
             <div
-            key={id}
-            className="flex flex-col justify-between shadow-md hover:scale-105 duration-500 shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 h-fit"
-              />
+              key={id}
+              className="flex flex-col justify-between shadow-md hover:scale-105 duration-500 shadow-gray-600 rounded-lg"
+            >
+              <img src={src} alt="" className="rounded-md duration-200 h-fit" />
               <div className="text-sm flex items-center justify-center py-4 px-4">
                 {desc}
               </div>

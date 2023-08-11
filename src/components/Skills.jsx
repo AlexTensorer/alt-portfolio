@@ -68,7 +68,10 @@ const Technos = () => {
   ];
 
   return (
-    <div name="skills" className="bg-cus-dark-black w-full h-screen">
+    <div
+    id="l-skills"
+    name="skills"
+    className="bg-cus-dark-black w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-8">
           <p className="text-4xl font-bold border-b-4 border-cus-yellow p-2 inline">

@@ -14,7 +14,10 @@ const Home = () => {
           id="home-animate-text"
           className="flex flex-col justify-center h-fit"
         >
-          <h1 className="text-4xl sm:text-6xl font-bold text-cus-black">
+          <h1
+            id="l-home-h1"
+            className="text-4xl sm:text-6xl font-bold text-cus-black"
+          >
             I'm AlexTensorer
             <br />
             Web Developer
@@ -54,6 +57,7 @@ const Home = () => {
 
         <div id="home-animate-img">
           <img
+            id="l-home-img"
             src={altPhoto}
             alt="my profile"
             className="rounded-2xl mx-auto w-[230px] sm:w-[300px] sm:ml-5 lg:w-[900px] mt-4"
