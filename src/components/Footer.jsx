@@ -45,7 +45,9 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex items-center justify-evenly h-20 bg-cus-yellow mb-0 xl:hidden">
+    <div
+    id="l-footer"
+    className="flex items-center justify-evenly h-20 bg-cus-yellow mb-0 xl:hidden">
       {links.map(({ id, child, href, download }) => (
         <div key={id}>
           <a
