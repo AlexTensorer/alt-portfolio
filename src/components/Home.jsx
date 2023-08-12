@@ -22,10 +22,10 @@ const Home = () => {
             <br />
             Web Developer
           </h1>
-          <h2 className="text-sm sm:text-md py-4 tracking-[0.2em] font-semibold">
+          <h2 className="text-sm sm:text-md py-4 tracking-[0.3em] font-semibold">
             Fullstack Developer <span className="text-2xl">&#128187;</span>{" "}
             <br />{" "}
-            <span className="line-through tracking-[0.15m] font-light text-[9px]">
+            <span className="line-through tracking-[0] font-light text-[9px]">
               Michelin-starred
             </span>{" "}
             Home Chef <span className="text-2xl">&#127859;</span> <br />{" "}

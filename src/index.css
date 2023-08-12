@@ -43,7 +43,7 @@
 
 }
 
-@media only screen and (max-height: 700px) and (orientation: landscape) {
+@media only screen and (max-height: 550px) and (orientation: landscape) {
   #l-nav {
     height: auto;
   }
@@ -61,7 +61,7 @@
     margin-top: 55px;
   }
   #l-home-img {
-    width: 200px;
+    width: 220px;
     margin-top: 40px;
   }
   #l-about {
