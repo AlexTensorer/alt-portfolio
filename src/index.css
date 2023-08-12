@@ -19,7 +19,7 @@
 }
 
 #home-animate-img {
-  animation: backInRight 2s;
+  animation: fadeIn 2s 0.1s backwards;
 }
 
 @media screen and (max-width: 450px) {
