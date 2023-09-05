@@ -41,7 +41,7 @@ const Contact = () => {
             <textarea
               required
               name="message"
-              placeholder="I'd love to hire you ! (Too easy ?)"
+              placeholder="When can you come for an interview?"
               rows="10"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>

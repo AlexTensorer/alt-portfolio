@@ -77,8 +77,6 @@ const Technos = () => {
           <p className="text-4xl font-bold border-b-4 border-cus-yellow p-2 inline">
             Skills
           </p>
-          <p className="py-6">
-            Before you say anything, I know HTML & CSS. I know them very well. However, it's self-evident, so why waste a grid-col on them?<span className="text-center text-2xl"> &#128521;</span></p>
         </div>
 
         <div className=" grid grid-cols-3 sm:grid-cols-3 gap-6 text-center py-4 px-8 sm:px-0">

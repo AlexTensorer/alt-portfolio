@@ -1,7 +1,6 @@
 import React from "react";
 import aliskitchen from "../assets/portfolio/alis-kitchen.jpg";
 import campadvisor from "../assets/portfolio/camp-advisor.jpg";
-import altport from "../assets/portfolio/alt-port.jpg";
 import oinvest from "../assets/portfolio/oinvest.png";
 
 const Portfolio = () => {
@@ -18,17 +17,10 @@ const Portfolio = () => {
       src: campadvisor,
       hrefdemo: "https://github.com/AlexTensorer/Camp-Advisor",
       hrefcode: "https://github.com/AlexTensorer/Camp-Advisor",
-      desc: "Camp Advisor is a campground review project. It's the same stack as Ali's Kitchen but I swapped out Postgres for MongoDB and Bootstrap for Bulma. Demo is coming soon.",
+      desc: "Camp Advisor is a campground review project. I swapped out Postgres for MongoDB and Bootstrap for Bulma. Demo is coming soon.",
     },
     {
       id: 3,
-      src: altport,
-      hrefdemo: "https://alex-t.netlify.app/",
-      hrefcode: "https://github.com/AlexTensorer/alt-portfolio",
-      desc: "Indeed ! Even my portfolio is a project. After my Bootcamp, I wanted to futher explore React and couple it with Tailwind CSS",
-    },
-    {
-      id: 4,
       src: oinvest,
       hrefdemo: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
       hrefcode: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
@@ -50,7 +42,7 @@ const Portfolio = () => {
           <p className="py-6"></p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, hrefdemo, hrefcode, desc }) => (
             <div
               key={id}

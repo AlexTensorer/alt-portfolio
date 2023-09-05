@@ -22,11 +22,6 @@ const About = () => {
         </p>
         <br />
         <p id="l-about-p" className="text-lg">
-          I'm not limited to what I know, I've learnt one language, so I can
-          learn another; And that's what I am doing. I'm just warming up.
-        </p>
-        <br />
-        <p id="l-about-p" className="text-lg">
           When I'm not coding, I'm usually at the gym, trying out a new recipe
           with my wife, playing punk-rock songs on the guitar, or on the
           trampoline with my daughter.
