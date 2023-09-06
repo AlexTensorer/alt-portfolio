@@ -22,8 +22,8 @@ const Portfolio = () => {
     {
       id: 3,
       src: oinvest,
-      hrefdemo: "",
-      hrefcode: "",
+      hrefdemo: "#",
+      hrefcode: "#",
       desc: "O'Invest is a portfolio performance tracker. Demo and source code will be posted mid-September 2023",
     },
   ];
