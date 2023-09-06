@@ -24,7 +24,7 @@ const Portfolio = () => {
       src: oinvest,
       hrefdemo: "#",
       hrefcode: "#",
-      desc: "O'Invest is a portfolio performance tracker. Demo and source code will be posted mid-September 2023",
+      desc: "O'Invest is a portfolio performance tracker made with React, Tailwind, Node and Postgres. Demo and source code will be posted mid-September 2023",
     },
   ];
 
