@@ -1,7 +1,7 @@
 import React from "react";
 import aliskitchen from "../assets/portfolio/alis-kitchen.jpg";
 import campadvisor from "../assets/portfolio/camp-advisor.jpg";
-import oinvest from "../assets/portfolio/oinvest.png";
+import oinvest from "../assets/portfolio/oinvest-portfolio.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -22,9 +22,9 @@ const Portfolio = () => {
     {
       id: 3,
       src: oinvest,
-      hrefdemo: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
-      hrefcode: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
-      desc: "O'Invest is a portfolio performance tracker. Demo and source code will be posted soon...",
+      hrefdemo: "",
+      hrefcode: "",
+      desc: "O'Invest is a portfolio performance tracker. Demo and source code will be posted mid-September 2023",
     },
   ];
 
