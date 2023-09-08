@@ -53,7 +53,7 @@ const Home = () => {
             id="l-home-img"
             src={altPhoto}
             alt="my profile"
-            className="rounded-2xl mx-auto w-[220px] sm:w-[300px] sm:ml-5 lg:w-[450px] mt-4"
+            className="rounded-2xl mx-auto w-[220px] sm:w-[300px] sm:ml-5 lg:w-[400px] mt-4"
           />
         </div>
       </div>
