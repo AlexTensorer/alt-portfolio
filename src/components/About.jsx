@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p id="l-about-p" className="text-xl mt-15">
-        Avant de plonger dans le monde de la technologie,
+        Avant de plonger dans le monde de la tech,
         j'ai œuvré aux côtés de géants de l'industrie financière,
         dans le domaine de la gestion de fonds et du patrimoine, tant au Royaume-Uni qu'en France.
         En 2023, j'ai décidé de me former au développement web avec l'École O'clock.
