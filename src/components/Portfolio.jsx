@@ -25,7 +25,7 @@ const Portfolio = () => {
       src: oinvest,
       hrefdemo: "/",
       hrefcode: "/",
-      desc: "O'Invest une app pour tracker la performance de vos investissements financier. Demo et source code seront posté mi-septembre",
+      desc: "O'Invest une app pour tracker la performance de vos investissements financier. Demo et source code disponible mi-septembre",
     },
   ];
 
