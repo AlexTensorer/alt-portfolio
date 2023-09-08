@@ -1,7 +1,8 @@
 import React from "react";
 import aliskitchen from "../assets/portfolio/alis-kitchen.jpg";
 import campadvisor from "../assets/portfolio/camp-advisor.jpg";
-import oinvest from "../assets/portfolio/oinvest-portfolio.jpg";
+import oinvest from "../assets/portfolio/oinvest.jpg";
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -10,21 +11,21 @@ const Portfolio = () => {
       src: aliskitchen,
       hrefdemo: "https://alis-kitchen.onrender.com",
       hrefcode: "https://github.com/AlexTensorer/Ali-s-Kitchen",
-      desc: "Ali's Kitchen is a recipe sharing website made with JavaScript, Node.js, PostgreSQL, EJS & Bootstrap. As a free tier service, please allow for a longer load time",
+      desc: "Ali's Kitchen est un site de partage de recettes fait avec JavaScript, Node.js, PostgreSQL, EJS & Bootstrap. Free tier service: veuillez laisser un temps de chargement plus long",
     },
     {
       id: 2,
       src: campadvisor,
       hrefdemo: "https://github.com/AlexTensorer/Camp-Advisor",
       hrefcode: "https://github.com/AlexTensorer/Camp-Advisor",
-      desc: "Camp Advisor is a campground review project. I swapped out Postgres for MongoDB and Bootstrap for Bulma. Demo is coming soon.",
+      desc: "Camp Advisor est un projet d'avis Camping fictif. J'ai changé Postgres pour MongoDB et Bootstrap pour Bulma. Demo arrive bientôt",
     },
     {
       id: 3,
       src: oinvest,
-      hrefdemo: "#",
-      hrefcode: "#",
-      desc: "O'Invest is a portfolio performance tracker made with React, Tailwind, Node and Postgres. Demo and source code will be posted mid-September 2023",
+      hrefdemo: "/",
+      hrefcode: "/",
+      desc: "O'Invest une app pour tracker la performance de vos investissements financier. Demo et source code seront posté mi-septembre",
     },
   ];
 
@@ -49,7 +50,7 @@ const Portfolio = () => {
               className="flex flex-col justify-between shadow-md hover:scale-105 duration-500 shadow-gray-600 rounded-lg"
             >
               <img src={src} alt="" className="rounded-md duration-200 h-fit" />
-              <div className="text-sm flex items-center justify-center py-4 px-4">
+              <div className="text-md flex items-center justify-center py-4 px-4">
                 {desc}
               </div>
 

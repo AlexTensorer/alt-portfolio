@@ -11,10 +11,10 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-cus-yellow">
             Contact
           </p>
-          <p className="py-6">
-            Let's get in touch. <br /> We can talk about my experience, my skills, your
-            company, your colleagues, your projects and the weather if we have
-            time. <br /> Mostly, let's see if we make a great match.
+          <p className="py-6 text-xl">
+            N'hésitez pas à me contacter. <br /> Nous pourrons parler de mon expérience,
+            mes compétences, votre entreprise, vos collègues, vos projets,
+            et la pluie et le beau temps
           </p>
         </div>
 
@@ -28,7 +28,7 @@ const Contact = () => {
               required
               type="text"
               name="name"
-              placeholder="Name"
+              placeholder="Votre nom et prénom"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
@@ -41,12 +41,12 @@ const Contact = () => {
             <textarea
               required
               name="message"
-              placeholder="When can you come for an interview?"
+              placeholder="Quand êtes-vous disponible pour un entretien?"
               rows="10"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
             <button className="text-white bg-gradient-to-b from-cus-yellow to-black-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's talk !
+              A bientôt !
             </button>
           </form>
         </div>

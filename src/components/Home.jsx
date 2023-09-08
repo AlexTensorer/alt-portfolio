@@ -16,30 +16,22 @@ const Home = () => {
         >
           <h1
             id="l-home-h1"
-            className="text-4xl sm:text-6xl font-bold text-cus-black"
+            className="text-4xl mt-8 sm:text-6xl font-bold text-cus-black"
           >
             I'm AlexTensorer
             <br />
             Web Developer
           </h1>
-          <h2 className="text-sm sm:text-md py-4 tracking-[0.3em] font-semibold">
-            Fullstack Developer <span className="text-2xl">&#128187;</span>{" "}
+          <h2 className="text-md sm:text-2xl py-4 tracking-[0.2em]">
+            Fullstack Developer <span className="text-3xl">&#128187;</span>{" "}
             <br />{" "}
-            <span className="line-through tracking-[0] font-light text-[9px]">
+            <span className="line-through tracking-[0] font-light text-[12px]">
               Michelin-starred
             </span>{" "}
-            Home Chef <span className="text-2xl">&#127859;</span> <br />{" "}
-            Guitarist & Singer <span className="text-2xl">&#127928;</span>
+            Home Chef <span className="text-3xl">&#127859;</span> <br />{" "}
+            Guitarist & Singer <span className="text-3xl">&#127928;</span>
           </h2>
-          <p className="text-cus-light-black py-2 max-w-fit hidden lg:block font-medium">
-            I love to code. I love sitting at my desk, and pulling out what is
-            left of my hair, figuring out why my varible is{" "}
-            <span className="font-light">undefined</span>, why my code runs
-            without throwing errors but doesn't produce the expected output, and
-            realising... I never actually called my function(). <br /> <br /> I{" "}
-            <strong className="underline underline-offset-4">love</strong> what
-            I do.
-          </p>
+        
           <div>
             <Link
               id="l-home-contact"
@@ -61,7 +53,7 @@ const Home = () => {
             id="l-home-img"
             src={altPhoto}
             alt="my profile"
-            className="rounded-2xl mx-auto w-[230px] sm:w-[300px] sm:ml-5 lg:w-[900px] mt-4"
+            className="rounded-2xl mx-auto w-[220px] sm:w-[300px] sm:ml-5 lg:w-[450px] mt-4"
           />
         </div>
       </div>
