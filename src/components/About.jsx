@@ -19,7 +19,7 @@ const About = () => {
         En 2023, j'ai décidé de me former au développement web avec l'École O'clock.
         J'ai rapidement assimilé de nouveaux concepts et les ai mis en pratique.
         Je porte des idées ambitieuses et j'apporte une attitude positive à chaque défi
-        et chaque entreprise avec qui j'ai travaillé.
+        et chaque entreprise avec qui je travaille.
         </p>
         <br />
         <p id="l-about-p" className="text-xl">
@@ -27,7 +27,7 @@ const About = () => {
         vous me trouverez généralement à la salle de sport,
         en train d'explorer de nouvelles recettes avec ma femme,
         jouant des morceaux de punk-rock à la guitare,
-        ou rebondissant sur le trampoline avec ma fille.
+        ou sur le trampoline avec ma fille.
         </p>
       </div>
     </div>
