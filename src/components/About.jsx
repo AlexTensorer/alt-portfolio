@@ -12,19 +12,22 @@ const About = () => {
             About
           </p>
         </div>
-        <p id="l-about-p" className="text-lg mt-20">
-          Before tech, I worked with giants of the financial industry in Fund
-          and Wealth Management in both the UK and France. In 2023, I took a
-          leap and trained in modern app development at Ecole O'clock. I quickly
-          absorbed new concepts and put them into practice. I have ambitious
-          ideas and bring a positive attitude to every challenge and every
-          company I've worked at.
+        <p id="l-about-p" className="text-xl mt-15">
+        Avant de plonger dans le monde de la technologie,
+        j'ai œuvré aux côtés de géants de l'industrie financière,
+        dans le domaine de la gestion de fonds et du patrimoine, tant au Royaume-Uni qu'en France.
+        En 2023, j'ai décidé de me former au développement web avec l'École O'clock.
+        J'ai rapidement assimilé de nouveaux concepts et les ai mis en pratique.
+        Je porte des idées ambitieuses et j'apporte une attitude positive à chaque défi
+        et chaque entreprise avec qui j'ai travaillé.
         </p>
         <br />
-        <p id="l-about-p" className="text-lg">
-          When I'm not coding, I'm usually at the gym, trying out a new recipe
-          with my wife, playing punk-rock songs on the guitar, or on the
-          trampoline with my daughter.
+        <p id="l-about-p" className="text-xl">
+        Lorsque je ne suis pas plongé dans le code,
+        vous me trouverez généralement à la salle de sport,
+        en train d'explorer de nouvelles recettes avec ma femme,
+        jouant des morceaux de punk-rock à la guitare,
+        ou rebondissant sur le trampoline avec ma fille.
         </p>
       </div>
     </div>
