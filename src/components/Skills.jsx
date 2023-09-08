@@ -70,7 +70,7 @@ const Technos = () => {
   return (
     <div
     id="l-skills"
-    name="skills"
+    name="technos"
     className="bg-cus-dark-black w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-8">
