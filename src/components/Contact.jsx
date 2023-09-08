@@ -11,7 +11,7 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-cus-yellow">
             Contact
           </p>
-          <p className="py-6 text-xl">
+          <p className="py-6 text-lg">
             N'hésitez pas à me contacter. <br /> Nous pourrons parler de mon expérience,
             mes compétences, votre entreprise, vos collègues, vos projets,
             et la pluie et le beau temps
