@@ -1,7 +1,7 @@
 import React from "react";
 import aliskitchen from "../assets/portfolio/alis-kitchen.jpg";
 import campadvisor from "../assets/portfolio/camp-advisor.jpg";
-import oinvest from "../assets/portfolio/oinvest.png";
+import oinvest from "../assets/portfolio/oinvest.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -22,8 +22,8 @@ const Portfolio = () => {
     {
       id: 3,
       src: oinvest,
-      hrefdemo: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
-      hrefcode: "https://i.postimg.cc/YqZMG5Q5/oinvest.png",
+      hrefdemo: "/",
+      hrefcode: "/",
       desc: "O'Invest une app pour tracker la performance de vos investissements financier. Demo et source code seront posté mi-septembre",
     },
   ];
