@@ -23,9 +23,9 @@ const Portfolio = () => {
     {
       id: 3,
       src: oinvest,
-      hrefdemo: "https://www.youtube.com/watch?v=0culX1xtgNo&ab_channel=AlexLeTensorer",
-      hrefcode: "https://github.com/AlexTensorer",
-      desc: "O'Invest une app pour tracker la performance de vos investissements financiers. React, Tailwind, Node.js, PostgreSQL, et API REST. Source code disponible bientôt, en attendant regardez la demo ! ",
+      hrefdemo: "https://youtu.be/xTQbtEsywzw",
+      hrefcode: "https://github.com/AlexTensorer/o-invest-back",
+      desc: "O'Invest une app pour tracker la performance de vos investissements financiers. React, Tailwind, Node.js, PostgreSQL, et API REST",
     },
   ];
 
