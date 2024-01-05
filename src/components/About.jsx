@@ -23,11 +23,7 @@ const About = () => {
         </p>
         <br />
         <p id="l-about-p" className="text-xl">
-        Lorsque je ne suis pas plongé dans le code,
-        vous me trouverez généralement à la salle de sport,
-        en train d'explorer de nouvelles recettes avec ma femme,
-        jouant des morceaux de punk-rock à la guitare,
-        ou sur le trampoline avec ma fille.
+        
         </p>
       </div>
     </div>
